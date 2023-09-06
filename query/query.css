@@ -16,7 +16,7 @@
     
     
     .CardPai{
-        background-image: linear-gradient( 45deg,#2b4e80, #221133);
+        background-image: linear-gradient( 45deg,#2b4e80, #42b2cf);
         margin: auto;
         height: auto;
         width: auto;
@@ -24,7 +24,7 @@
     }
     
     .CardPai1{
-        background-image: linear-gradient( 45deg,#2b4e80, #221133);
+        background-image: linear-gradient( 45deg,#2b4e80, #42b2cf);
         margin: auto;
         height: auto;
         margin-top: 20px;
@@ -35,7 +35,7 @@
     }
     
     .pai{
-        background-image: linear-gradient( 45deg,#2b4e80, #221133);
+        background-image: linear-gradient( 45deg,#2b4e80, #42b2cf);
         margin-left:1px;
         width: auto;
         margin-top: 20px;
