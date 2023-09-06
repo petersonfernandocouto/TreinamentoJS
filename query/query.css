@@ -1,13 +1,245 @@
 @charset "UTF-8";
 
 @media screen and (max-width:767px){
+    
     body{
-        background: green;
+        background: black url(../img/back-phone.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        color: black;
     }
-
-
-
-    .teste{
-        color: red;
+    
+    .cardPrincipal{
+    
+        margin-bottom: 220px;
     }
-}
+    
+    
+    .CardPai{
+        background-image: linear-gradient( 45deg,#2b4e80, #221133);
+        margin: auto;
+        height: auto;
+        width: auto;
+        height: 360px;
+    }
+    
+    .CardPai1{
+        background-image: linear-gradient( 45deg,#2b4e80, #221133);
+        margin: auto;
+        height: auto;
+        margin-top: 20px;
+        width: auto;
+        height: 360px;
+        
+        
+    }
+    
+    .pai{
+        background-image: linear-gradient( 45deg,#2b4e80, #221133);
+        margin-left:1px;
+        width: auto;
+        margin-top: 20px;
+    }
+    
+    .selecionar{
+        margin-left:10px;
+    }
+    
+    
+    }
+    
+    
+    
+    
+    @media screen and (max-width:321px){
+    
+    
+        .selecionar{
+            margin-left:4px;
+            width: 190px;
+        }
+    
+        .mae{
+            height:70px;
+        }
+    
+        .pai{
+            height: 600px;
+        }
+    }
+    
+    
+    
+    @media screen and (min-width:768px) and (max-width:1023px){
+    
+        body{
+            background: black url(../img/back-tablet.jpg) no-repeat;
+            background-size: cover;
+            background-position: center center;
+            color: black;
+        }
+    
+    
+        .cardPrincipal{
+    
+            margin-bottom: 220px;
+        }
+        
+        
+        .CardPai{
+            background-image: linear-gradient( 45deg,
+            #307e80, #221133);
+            margin: auto;
+            height: auto;
+            width: 450px;
+            height: 360px;
+        }
+        
+        .CardPai1{
+            background-image: linear-gradient( 45deg,
+            #307e80, #221133);
+            margin: auto;
+            height: auto;
+            margin-top: 20px;
+            width: 450;
+            height: 360px;
+            
+            
+        }
+        
+        .pai{
+            background-image: linear-gradient( 45deg,
+            #307e80, #221133);
+            margin: auto;
+            width: 500px;
+            margin-top: 20px;
+        }
+        
+        .selecionar{
+            margin-left:80px;
+        }
+        
+        
+        .perguntaNome{
+            text-align: center;
+        }
+    
+        .botaoo{
+            margin-left: 180px;
+    
+        }
+    
+        .especial{
+            text-align: center;
+        }
+    
+    
+    }
+    
+    @media screen and (min-width:1024px) and (max-width:1208px){
+    
+        .CardPai{
+            background-image: linear-gradient( 45deg,
+            #6309d9, #221133);
+            position: absolute;
+            width: 440px;
+            left: 50px;
+        }
+    
+        .CardPai1{
+            background-image: linear-gradient( 45deg,
+            #6309d9, #221133);
+            position: absolute;
+            width: 440px;
+            right: 50px;
+        }
+    
+        .pai{
+            background-image: linear-gradient( 45deg,
+            #6309d9, #221133);
+            margin: auto;
+            width: 850px;
+            margin-top: 20px;
+        }
+    
+        .selecionar{
+            margin-left:280px;
+        }
+    
+    }
+    
+    @media screen and (min-width:1209px) and (max-width:1900px){
+    
+        
+    
+        .CardPai{
+            background-image: linear-gradient( 45deg,
+            #6309d9, #221133);
+            position: absolute;
+            width: 440px;
+            left: 100px;
+        }
+    
+        .CardPai1{
+            background-image: linear-gradient( 45deg,
+            #6309d9, #221133);
+            position: absolute;
+            width: 440px;
+            right: 100px;
+        }
+    
+        .pai{
+            background-image: linear-gradient( 45deg,
+            #6309d9, #221133);
+            margin: auto;
+            width: 850px;
+            margin-top: 20px;
+        }
+    
+        .selecionar{
+            margin-left:280px;
+        }
+    }
+    
+    
+    
+    @media screen and (min-width:1900px){
+    
+    
+        body{
+            background: black url(../img/back-tv.jpg) no-repeat;
+            background-size: cover;
+            background-position: center center;
+            color: black;
+        }
+    
+        .CardPai{
+            background-image: linear-gradient( 45deg,
+            #6309d9, #221133);
+            position: absolute;
+            width: 1000px;
+            left: 100px;
+        }
+    
+        .CardPai1{
+            background-image: linear-gradient( 45deg,
+            #6309d9, #221133);
+            position: absolute;
+            width: 1000px;
+            right: 100px;
+        }
+    
+        .pai{
+            background-image: linear-gradient( 45deg,
+            #6309d9, #221133);
+            margin: auto;
+            width: 1500px;
+            margin-top: 20px;
+        }
+    
+        .selecionar{
+            margin-left:580px;
+        }
+    
+    
+    }
